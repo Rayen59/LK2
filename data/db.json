@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": "usr_1789288626064_yz8gc",
+      "nom": "Bouazizi",
+      "prenom": "Rayen",
+      "email": "rayenbouazizi337@gmail.com",
+      "password": "nebdjdjf",
+      "avatarUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=150&auto=format&fit=crop&q=80",
+      "promo": "Membre MK",
+      "bio": "Bienvenue sur mon profil MK !",
+      "createdAt": "2026-09-13T08:37:06.064Z",
+      "friends": [],
+      "friendRequestsSent": [],
+      "friendRequestsReceived": [],
+      "blockedUsers": [],
+      "isLocked": false
+    },
+    {
+      "id": "usr_admin_mk_master",
+      "nom": "Administration",
+      "prenom": "MK",
+      "email": "admin189@gmail.com",
+      "password": "admin189",
+      "avatarUrl": "https://api.dicebear.com/7.x/initials/svg?seed=MK%20Admin&backgroundColor=1e3a8a",
+      "promo": "Direction & Modération",
+      "bio": "Compte officiel de supervision et de modération de la plateforme MK.",
+      "role": "admin",
+      "isLocked": false,
+      "friends": [],
+      "friendRequestsSent": [],
+      "friendRequestsReceived": [],
+      "blockedUsers": [],
+      "createdAt": "2026-10-07T10:56:53.890Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_wavegram_rayen_1",
+      "authorId": "usr_1789288626064_yz8gc",
+      "authorName": "Rayen",
+      "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "authorPromo": "Membre MK",
+      "content": "De grandes choses arrivent... 🔥",
+      "attachments": [
+        {
+          "id": "att_quote_card_1",
+          "type": "image",
+          "name": "reve_planifie_agis.jpg",
+          "url": "/src/assets/images/reve_planifie_agis_1793465076704.jpg"
+        }
+      ],
+      "quoteOverlay": {
+        "crown": true,
+        "line1": "Rêve",
+        "line2": "Planifie",
+        "line3": "Agis"
+      },
+      "likes": [
+        "usr_admin_mk_master",
+        "usr_sample_1",
+        "usr_sample_2"
+      ],
+      "likesCountDisplay": 423,
+      "comments": [
+        {
+          "id": "comm_1",
+          "userId": "usr_admin_mk_master",
+          "userName": "Med",
+          "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+          "userPromo": "Membre MK",
+          "content": "Force à toi mon frère, on est ensemble ! 🚀",
+          "createdAt": "2026-10-31T08:15:00.000Z"
+        }
+      ],
+      "commentsCountDisplay": 58,
+      "sharesCountDisplay": 12,
+      "tags": [
+        "Wavegram",
+        "Inspiration"
+      ],
+      "createdAt": "2026-10-31T07:35:00.000Z"
+    },
+    {
+      "id": "post_wavegram_med_2",
+      "authorId": "usr_med_user",
+      "authorName": "Med",
+      "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "authorPromo": "Membre MK",
+      "content": "Toujours plus loin ! 🚀",
+      "attachments": [],
+      "likes": [
+        "usr_1789288626064_yz8gc"
+      ],
+      "likesCountDisplay": 189,
+      "comments": [],
+      "commentsCountDisplay": 24,
+      "sharesCountDisplay": 5,
+      "tags": [
+        "Motivation"
+      ],
+      "createdAt": "2026-10-31T05:30:00.000Z"
+    }
+  ],
+  "reels": [],
+  "directMessages": [],
+  "spaces": [],
+  "forums": [],
+  "forumMessages": [],
+  "quizzes": [],
+  "quizSubmissions": [],
+  "polls": [],
+  "notifications": [
+    {
+      "id": "notif_1791372651188_ewyt",
+      "recipientId": "usr_admin_mk_master",
+      "actorId": "usr_system_security",
+      "actorName": "Sécurité MK",
+      "actorAvatar": "https://api.dicebear.com/7.x/identicon/svg?seed=MKSafety&backgroundColor=0284c7",
+      "actorPromo": "Protection Compte",
+      "type": "pc_login_code",
+      "title": "💻 Connexion PC : Code de validation",
+      "message": "Tentative de connexion sur PC. Votre code de validation est : 985859. Ouvrez Paramètres > Code de validation pour approuver l'accès.",
+      "targetId": "pcsess_1791372651188_7mq0t",
+      "targetType": "security",
+      "isRead": false,
+      "createdAt": "2026-10-07T11:30:51.188Z"
+    },
+    {
+      "id": "notif_1791372354094_30a7",
+      "recipientId": "usr_admin_mk_master",
+      "actorId": "usr_system_security",
+      "actorName": "Sécurité MK",
+      "actorAvatar": "https://api.dicebear.com/7.x/identicon/svg?seed=MKSafety&backgroundColor=0284c7",
+      "actorPromo": "Protection Compte",
+      "type": "pc_login_code",
+      "title": "💻 Connexion PC : Code de validation",
+      "message": "Tentative de connexion sur PC. Votre code de validation est : 739630. Ouvrez Paramètres > Code de validation pour approuver l'accès.",
+      "targetId": "pcsess_1791372354094_u5jkp",
+      "targetType": "security",
+      "isRead": false,
+      "createdAt": "2026-10-07T11:25:54.094Z"
+    },
+    {
+      "id": "notif_1791372327529_t2cm",
+      "recipientId": "usr_admin_mk_master",
+      "actorId": "usr_system_security",
+      "actorName": "Sécurité MK",
+      "actorAvatar": "https://api.dicebear.com/7.x/identicon/svg?seed=MKSafety&backgroundColor=0284c7",
+      "actorPromo": "Protection Compte",
+      "type": "pc_login_code",
+      "title": "💻 Connexion PC : Code de validation",
+      "message": "Tentative de connexion sur PC. Votre code de validation est : 145312. Ouvrez Paramètres > Code de validation pour approuver l'accès.",
+      "targetId": "pcsess_1791372327529_hu2b9",
+      "targetType": "security",
+      "isRead": false,
+      "createdAt": "2026-10-07T11:25:27.529Z"
+    }
+  ],
+  "reports": []
+}
